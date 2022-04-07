@@ -1,0 +1,26 @@
+.contain{
+    color: white;
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+}
+.seal{
+    height: 200px;
+    width: 200px;
+}
+.formContain{
+    width: 50%;
+    align-self: center;
+    left: 25%;
+    position: relative;
+}
+#logText{
+    position: relative;
+    top: 30%;
+    text-align: left;
+}
+#notice{
+    margin-top: 20px;
+    text-align: center;
+    background: red;
+}

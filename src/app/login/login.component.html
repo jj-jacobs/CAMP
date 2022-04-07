@@ -1,0 +1,40 @@
+<div class="contain">
+    <div class="row" id="head">
+        <div class="col-auto">
+            <img class="seal"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Emblem_of_the_United_States_Navy.svg/1200px-Emblem_of_the_United_States_Navy.svg.png"
+                alt="seal of the navy">
+        </div>
+        <div class="col-7">
+            <h1 id="logText">CAMP USER LOGIN</h1>
+        </div>
+    </div>
+    <div class="row" id="credentials">
+        <form>
+            <form (submit)="login()" class="loginForm">
+                <div class="formContain">
+                    <div class="form-group">
+                        <label for="id">Enter ID</label>
+                        <input type="text" class="form-control" id="id" placeholder="Enter id">
+                        <small id="emailHelp" class="form-text text-muted">Never share your ID with anyone
+                            else.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                    </div>
+                    <div class="form-group">
+                        <label for="Swipe">Swipe Finger</label>
+                        <input type="text" class="form-control" id="Swipe" placeholder="Swipe Finger">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+            </form>
+        </form>
+    </div>
+    <div class="row" id="notice">
+        <h1>NOTICE</h1>
+        <h1>IF YOU ARE NOT AN AUTHORIZED USER</h1>
+        <h1>EXIT NOW</h1>
+    </div>
+</div>
