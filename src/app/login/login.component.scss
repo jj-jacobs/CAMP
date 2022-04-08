@@ -1,4 +1,14 @@
-.contain{
+#head{
+    width: 90%;
+}
+html,body
+{
+    width: 99%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}.contain{
     color: white;
     background-color: black;
     height: 100vh;
@@ -23,4 +33,12 @@
     margin-top: 20px;
     text-align: center;
     background: red;
+    width: 100.7%;
+}
+.loginForm{
+    width: 99%;
+}
+.row{
+    margin-left: 2px;
+    max-width: 99.8vw;
 }

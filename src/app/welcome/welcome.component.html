@@ -1,3 +1,57 @@
 <div class="contain">
-    <p>hi</p>
+    <div class="row" id="head">
+        <div class="col-2">
+            <img class="seal"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Emblem_of_the_United_States_Navy.svg/1200px-Emblem_of_the_United_States_Navy.svg.png"
+                alt="seal of the navy">
+        </div>
+        <div id="headCol" class="col-8">
+            <h1 class="logTextH1">Welcome To CAMP</h1>
+            <h2 class="logTextH2">Concept Of Operations</h2>
+            <h2 class="logTextH2">Autonomous Mission Planner</h2>
+        </div>
+    </div>
+    <hr class="whiteHr">
+    <div class="select" id="task">
+        <h2 class="logTextH2">Please Select Task</h2>
+    </div>
+    <div class="row" id="task">
+        <div class="col-8">
+            <h2 class="logTextH2 label">CREATE New Mission Plan</h2>
+        </div>
+        <div class="col-2">
+            <button type="button" class="btn btn-light" [routerLink]="['/newMissionPlan']">CREATE</button>
+        </div>
+    </div>
+    <div class="row" id="task">
+        <div class="col-8">
+            <h2 class="logTextH2 label">OPEN Existing Mission Plan</h2>
+        </div>
+        <div class="col-2">
+            <button type="button" class="btn btn-light" [routerLink]="['/existingMissionPlan']">OPEN</button>
+        </div>
+    </div>
+    <div class="row" id="task">
+        <div class="col-8">
+            <h2 class="logTextH2 label">EDIT Existing Mission Plan</h2>
+        </div>
+        <div class="col-2">
+            <button type="button" class="btn btn-light" [routerLink]="['/login']">EDIT</button>
+        </div>
+    </div>
+    <div class="row" id="task">
+        <div class="col-8">
+            <h2 class="logTextH2 label" id="thought">!EDIT requires MUCH more thought!</h2>
+        </div>
+    </div>
+    <div class="row" id="task">
+        <div class="col-8">
+            <h2 class="logTextH2 label">Library Maintenance</h2>
+        </div>
+        <div class="col-2">
+            <button type="button" class="btn btn-light">LIBRARIES</button>
+        </div>
+    </div>
+    <button class="btn btn-danger logout" [routerLink]="['/login']">LOGOUT</button>
+    <button class="btn btn-warning" id="back" (click)="back()">BACK</button>
 </div>

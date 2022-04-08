@@ -1,0 +1,58 @@
+.contain{
+    color: white;
+    background-color: #002060;
+    height: 100vh;
+    width: 100vw;
+}
+.seal{
+    height: 200px;
+    width: 200px;
+}
+#logText{
+    font-size: 44px;
+    position: relative;
+    text-align: center;
+}
+.row{
+    margin-left: 2px;
+    max-width: 99.8vw;
+}
+.btn{
+    width: 193px;
+    height: 38px;
+    border-radius: 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    color: black;
+}
+.btn-danger{
+    background: red;
+}
+.yellow{
+    background: yellow;
+}
+.logTextH2{
+    font-size: 28px;
+    position: relative;
+    text-align: center;
+}
+.underline{
+    text-decoration: underline;
+}
+.formContain{
+    width: 50%;
+    align-self: center;
+    left: 25%;
+    position: relative;
+}
+#logout{
+    display: inline-block !important;
+    margin-top: 30px;
+    position: absolute;
+    bottom: 10px;
+}
+label{
+    font-size: 28px;
+}

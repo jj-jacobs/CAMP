@@ -1,6 +1,8 @@
 .contain{
     background-color: white;
-    height: 100vh;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
     width: 100vw;
 }
 .reaper{
@@ -28,4 +30,8 @@
 }
 .logA{
     font-size: 22px;
+}
+.row{
+    margin-left: 2px;
+    max-width: 99.8vw;
 }

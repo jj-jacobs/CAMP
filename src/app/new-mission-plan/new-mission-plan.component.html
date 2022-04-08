@@ -1,0 +1,49 @@
+<div class="contain">
+    <div class="row" id="head">
+        <div class="col-2">
+            <img class="seal"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Emblem_of_the_United_States_Navy.svg/1200px-Emblem_of_the_United_States_Navy.svg.png"
+                alt="seal of the navy">
+        </div>
+        <div class="col-8">
+            <h1 id="logText">NEW MISSION PLAN</h1>
+            <h2 class="logTextH2 underline">ENTER PLAN ID CODES</h2>
+        </div>
+    </div>
+    <form (submit)="submitMission()" class="loginForm">
+        <div class="formContain">
+            <div class="form-group">
+                <label for="mission">Mission ID#</label>
+                <input type="text" class="form-control" id="mission" placeholder="Enter ID">
+                <small id="emailHelp" class="form-text text-muted">Never share the ID with anyone
+                    else.</small>
+            </div>
+            <div class="form-group">
+                <label for="origin">Origination ID#</label>
+                <input type="text" class="form-control" id="origin" placeholder="Enter ID">
+                <small id="emailHelp" class="form-text text-muted">Never share the ID with anyone
+                    else.</small>
+            </div>
+            <div class="form-group">
+                <label for="destination">Destination ID#</label>
+                <input type="text" class="form-control" id="destination" placeholder="Enter ID">
+                <small id="emailHelp" class="form-text text-muted">Never share the ID with anyone
+                    else.</small>
+            </div>
+            <div class="form-group">
+                <label for="auth">Authorization ID#</label>
+                <input type="text" class="form-control" id="auth" placeholder="Enter ID">
+                <small id="emailHelp" class="form-text text-muted">Never share the ID with anyone
+                    else.</small>
+            </div>
+            <button type="submit" class="btn btn-success">UNCLASS</button>
+            <button type="submit" class="btn btn-info">CONFIDENTIAL</button>
+            <button type="submit" class="btn btn-danger">SECRET</button>
+            <button type="submit" class="btn btn-warning">TOP SECRET</button>
+            <button type="submit" class="btn yellow">CODE WORD</button>
+        </div>
+    </form>
+    <button class="btn btn-danger"
+    id="logout" [routerLink]="['/login']">LOGOUT</button>
+    <button class="btn btn-warning" id="logout" (click)="back()">BACK</button>
+</div>

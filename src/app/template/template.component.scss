@@ -1,0 +1,38 @@
+.contain{
+    color: white;
+    background-color: #002060;
+    height: 100vh;
+    width: 100vw;
+}
+.seal{
+    height: 200px;
+    width: 200px;
+}
+#logText{
+    font-size: 44px;
+    position: relative;
+    text-align: center;
+}
+.row{
+    margin-left: 2px;
+    max-width: 99.8vw;
+}
+.btn{
+    width: 193px;
+    height: 38px;
+    border-radius: 0px;
+}
+#logout{
+    display: inline-block !important;
+    margin-top: 30px;
+    position: absolute;
+    bottom: 10px;
+}
+.underline{
+    text-decoration: underline;
+}
+.logTextH2{
+    font-size: 28px;
+    position: relative;
+    text-align: center;
+}

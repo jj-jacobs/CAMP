@@ -1,0 +1,80 @@
+.contain{
+    color: white;
+    background-color: #002060;
+    height: 100vh;
+    width: 100vw;
+}
+.seal{
+    height: 200px;
+    width: 200px;
+}
+.logTextH1{
+    font-size: 44px;
+    position: relative;
+    text-align: center;
+}
+.logTextH2{
+    font-size: 28px;
+    position: relative;
+    text-align: center;
+}
+
+.whiteHr{
+    position: relative;
+    color: white;
+    height: 2px;
+    width: 100vw;
+}
+#headCol{
+    text-align: center;
+}
+.row{
+    margin-left: 2px;
+    max-width: 99vw;
+}
+#task{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.btn-light{
+    width: 193px;
+    height: 38px;
+    border-radius: 0px;
+}
+#thought{
+    color: yellow;
+}
+.label{
+    text-align: left;
+}
+.btn-danger{
+    width: 193px;
+    height: 50px;
+    border-radius: 0px;
+    color: black;
+    font-size: 28px;
+    background: red;
+    padding-bottom: 10px;
+    bottom: 0%;
+    position: relative;
+}
+.logout{
+    display: inline-block !important;
+    margin-top: 30px;
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+}
+#back{
+        display: inline-block !important;
+        margin-top: 30px;
+        position: absolute;
+        bottom: 10px;
+        right: 20px;
+        width: 193px;
+        height: 50px;
+        border-radius: 0px;
+        color: black;
+        font-size: 28px;
+        padding-bottom: 10px;
+}

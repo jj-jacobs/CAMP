@@ -6,19 +6,26 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { LandingComponent } from './landing/landing.component';
 import { WelcomeComponent } from './welcome/welcome.component';
+import { TemplateComponent } from './template/template.component';
+import { NewMissionPlanComponent } from './new-mission-plan/new-mission-plan.component';
+import { NewMissionTypeComponent } from './new-mission-type/new-mission-type.component';
+import { BackService } from './back.service';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     LandingComponent,
-    WelcomeComponent
+    WelcomeComponent,
+    TemplateComponent,
+    NewMissionPlanComponent,
+    NewMissionTypeComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [BackService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
