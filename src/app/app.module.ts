@@ -10,6 +10,9 @@ import { TemplateComponent } from './template/template.component';
 import { NewMissionPlanComponent } from './new-mission-plan/new-mission-plan.component';
 import { NewMissionTypeComponent } from './new-mission-type/new-mission-type.component';
 import { BackService } from './back.service';
+import { MissionConfigComponent } from './mission-config/mission-config.component';
+import { PlatformLibraryComponent } from './platform-library/platform-library.component';
+import { ExistingPlatformsComponent } from './existing-platforms/existing-platforms.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +22,10 @@ import { BackService } from './back.service';
     WelcomeComponent,
     TemplateComponent,
     NewMissionPlanComponent,
-    NewMissionTypeComponent
+    NewMissionTypeComponent,
+    MissionConfigComponent,
+    PlatformLibraryComponent,
+    ExistingPlatformsComponent
   ],
   imports: [
     BrowserModule,

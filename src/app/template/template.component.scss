@@ -27,6 +27,14 @@
     margin-top: 30px;
     position: absolute;
     bottom: 10px;
+    left: 10px;
+    width: 193px;
+    height: 50px;
+    border-radius: 0px;
+    background: red;
+    color: black;
+    font-size: 28px;
+    padding-bottom: 10px;
 }
 .underline{
     text-decoration: underline;
@@ -35,4 +43,17 @@
     font-size: 28px;
     position: relative;
     text-align: center;
+}
+#back{
+    display: inline-block !important;
+    margin-top: 30px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 193px;
+    height: 50px;
+    border-radius: 0px;
+    font-size: 28px;
+    padding-bottom: 10px;
+    color: black;
 }

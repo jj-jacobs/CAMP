@@ -6,21 +6,17 @@
                 alt="seal of the navy">
         </div>
         <div class="col-8">
-            <h1 id="logText">NEW MISSION TYPE</h1>
-            <h2 class="logTextH2">SELECT MISSION TYPE</h2>
+            <h1 id="logText">MISSION CONFIGURATOR</h1>
         </div>
     </div>
     <div class="row">
-        <h2 class="logTextH2">1. <a href="missionConfig">SINGLE PLATFORM</a></h2>
+        <h2 class="logTextH2">Mission ID#:</h2>
     </div>
-    <div class="row">
-        <h2 class="logTextH2">2. <a href="missionConfig">MULTI PLATFORMs</a></h2>
-        <h2 class="logTextH2">"{{ '{Heterogeneous UAVs}' }}"</h2>
+    <div class="viewDiv"><button class="btn btn-success view" [routerLink]="['/existingPlatforms']">VIEW EXISTING PLATFORMS </button></div>
+    <div class="row plat">
+        <h2 class="logTextH2">PLATFORM SELECTED: </h2>
     </div>
-    <div class="row">
-        <h2 class="logTextH2">3. <a href="missionConfig">SWARM PLATFORMs</a></h2>
-        <h2 class="logTextH2">"{{ '{Homogeneous UAVs}' }}"</h2>
-    </div>
+    <div class="viewDiv conf"><button class="btn btn-success config" [routerLink]="['/missionConfig']">ACCEPT back to CONFIGURATOR</button></div>
     <button class="btn btn-danger" id="logout" [routerLink]="['/login']">LOGOUT</button>
     <button class="btn btn-warning" id="back" (click)="back()">BACK</button>
 </div>

@@ -2,11 +2,12 @@ import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { BackService } from '../back.service';
 @Component({
-  selector: 'app-template',
-  templateUrl: './template.component.html',
-  styleUrls: ['./template.component.scss']
+  selector: 'app-platform-library',
+  templateUrl: './platform-library.component.html',
+  styleUrls: ['./platform-library.component.scss']
 })
-export class TemplateComponent implements OnInit {
+export class PlatformLibraryComponent implements OnInit {
+
   constructor(private _router: Router, private previousRouteService: BackService) { }
 
 
@@ -15,5 +16,4 @@ export class TemplateComponent implements OnInit {
   back() {
     this._router.navigate([this.previousRouteService.getPreviousUrl()])
   }
-
 }
