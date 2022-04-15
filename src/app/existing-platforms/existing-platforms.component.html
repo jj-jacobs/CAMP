@@ -14,18 +14,7 @@
     </div>
     <button class="btn btn-danger" id="logout" [routerLink]="['/login']">LOGOUT</button>
     <button class="btn btn-warning" id="back" (click)="back()">BACK</button>
-    <ol class="list-group list-group-numbered">
-        <li class="list-group-item">MQ-1 Predator</li>
-        <li class="list-group-item">MQ-4C Triton</li>
-        <li class="list-group-item">MQ-8 Fire Scout</li>
-        <li class="list-group-item">MQ-9 Reaper</li>
-        <li class="list-group-item">MQ-20 Avenger </li>
-        <li class="list-group-item">RQ-7 Shadow </li>
-        <li class="list-group-item">RQ-11 Raven</li>
-        <li class="list-group-item">RQ-12 Wasp</li>
-        <li class="list-group-item">RQ-20 Puma</li>
-        <li class="list-group-item">RQ-21 Blackjack</li>
-        <li class="list-group-item">RQ-170 Sentinel</li>
-        <li class="list-group-item">X-47B Pegasus</li>
+    <ol id="two-columns" class="list-group list-group-numbered row">
+        <li *ngFor="let drone of drones" class="list-group-item col-4" [routerLink]="['/missionConfig']">{{drone}}</li>
     </ol>
 </div>

@@ -8,6 +8,7 @@ import { NewMissionTypeComponent } from './new-mission-type/new-mission-type.com
 import { MissionConfigComponent } from './mission-config/mission-config.component';
 import { PlatformLibraryComponent } from './platform-library/platform-library.component';
 import { ExistingPlatformsComponent } from './existing-platforms/existing-platforms.component';
+import { MissionRoutingComponent } from './mission-routing/mission-routing.component';
 
 const routes: Routes = [
   {path: '', pathMatch: 'full', component: LandingComponent },
@@ -19,6 +20,7 @@ const routes: Routes = [
   {path: 'missionConfig', component: MissionConfigComponent },
   {path: 'platformLibrary', component: PlatformLibraryComponent },
   {path: 'existingPlatforms', component: ExistingPlatformsComponent },
+  {path: 'missionRouting', component: MissionRoutingComponent },
 ];
 
 @NgModule({

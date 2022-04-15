@@ -1,68 +1,86 @@
-.contain{
-    color: white;
+.contain {
+    color           : white;
     background-color: #002060;
-    height: 100vh;
-    width: 100vw;
+    height          : 100vh;
+    width           : 100vw;
 }
-.seal{
+
+.seal {
     height: 200px;
-    width: 200px;
+    width : 200px;
 }
-#logText{
-    font-size: 44px;
-    position: relative;
+
+#logText {
+    font-size : 44px;
+    position  : relative;
     text-align: center;
 }
-.row{
+
+.row {
     margin-left: 2px;
-    max-width: 99.6vw;
+    max-width  : 99.6vw;
 }
-.btn{
-    width: 193px;
-    height: 38px;
+
+.btn {
+    width        : 193px;
+    height       : 38px;
     border-radius: 0px;
 }
-#logout{
-    display: inline-block !important;
-    margin-top: 30px;
-    position: absolute;
-    bottom: 10px;
-    left: 10px;
-    width: 193px;
-    height: 50px;
-    border-radius: 0px;
-    background: red;
-    color: black;
-    font-size: 28px;
+
+#logout {
+    display       : inline-block !important;
+    margin-top    : 30px;
+    position      : absolute;
+    bottom        : 10px;
+    left          : 10px;
+    width         : 193px;
+    height        : 50px;
+    border-radius : 0px;
+    background    : red;
+    color         : black;
+    font-size     : 28px;
     padding-bottom: 10px;
 }
-.underline{
+
+.underline {
     text-decoration: underline;
 }
-.logTextH2{
-    font-size: 28px;
-    position: relative;
+
+.logTextH2 {
+    font-size : 28px;
+    position  : relative;
     text-align: center;
 }
-#back{
-    display: inline-block !important;
-    margin-top: 30px;
-    position: absolute;
-    bottom: 10px;
-    right: 10px;
-    width: 193px;
-    height: 50px;
-    border-radius: 0px;
-    font-size: 28px;
+
+#back {
+    display       : inline-block !important;
+    margin-top    : 30px;
+    position      : absolute;
+    bottom        : 10px;
+    right         : 10px;
+    width         : 193px;
+    height        : 50px;
+    border-radius : 0px;
+    font-size     : 28px;
     padding-bottom: 10px;
-    color: black;
+    color         : black;
 }
-li{
+
+li {
     background: none;
-    color: white;
-    font-size: 20px;
-    border: none;
+    color     : white;
+    font-size : 20px;
+    border    : none;
+    display   : inline-block;
+    position  : relative;
 }
-.list-group-numbered{
+
+.list-group-numbered {
     text-align: center;
+}
+
+ol {
+    display    : flex;
+    align-items: center;
+    height     : 35%;
 }

@@ -13,6 +13,7 @@ import { BackService } from './back.service';
 import { MissionConfigComponent } from './mission-config/mission-config.component';
 import { PlatformLibraryComponent } from './platform-library/platform-library.component';
 import { ExistingPlatformsComponent } from './existing-platforms/existing-platforms.component';
+import { MissionRoutingComponent } from './mission-routing/mission-routing.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { ExistingPlatformsComponent } from './existing-platforms/existing-platfo
     NewMissionTypeComponent,
     MissionConfigComponent,
     PlatformLibraryComponent,
-    ExistingPlatformsComponent
+    ExistingPlatformsComponent,
+    MissionRoutingComponent
   ],
   imports: [
     BrowserModule,

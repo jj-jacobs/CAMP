@@ -1,0 +1,33 @@
+<div class="contain">
+    <div class="row" id="head">
+        <div class="col-2">
+            <img class="seal"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Emblem_of_the_United_States_Navy.svg/1200px-Emblem_of_the_United_States_Navy.svg.png"
+                alt="seal of the navy">
+        </div>
+        <div class="col-8">
+            <h1 id="logText">MISSION ROUTING via GPS</h1>
+            <h2>This is a Sample</h2>
+        </div>
+    </div>
+    <form (submit)="submitMission()" class="loginForm">
+        <div class="formContain row">
+            <div *ngFor="let waypoint of waypoints" class="form-group col-5">
+                <label for={{waypoint}}>waypoint {{waypoints[waypoint]}}</label>
+                <input type="text" class="form-control" id={{waypoint}} placeholder="Enter Waypoint">
+            </div>
+            <div class="form-group col-5">
+                <label for='origination'>origination</label>
+                <input type="text" class="form-control" id='origination' placeholder="Enter origination">
+            </div>
+            <div  class="form-group col-5">
+                <label for='desination'>Destination</label>
+                <input type="text" class="form-control" id='destination' placeholder="Enter Destination">
+            </div>
+
+            <button type="submit" class="submit btn btn-success">Submit</button>
+        </div>
+    </form>
+    <button class="btn btn-danger" id="logout" [routerLink]="['/login']">LOGOUT</button>
+    <button class="btn btn-warning" id="back" (click)="back()">BACK</button>
+</div>
